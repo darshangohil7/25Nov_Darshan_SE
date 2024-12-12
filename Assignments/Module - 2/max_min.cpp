@@ -19,11 +19,8 @@ main()
 	else if (c>a && c>b)
 	{
 		printf("The Value of C is Maximum.");
-	}
-	else 
-	{
-		printf("The Minimum Value:%d",a,b,c);
-	}	if(a<b && a<c)
+	}	
+	if(a<b && a<c)
 	{
 		printf("\nThe Value of A is Minimum.");
 	}
